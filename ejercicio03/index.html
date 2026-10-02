@@ -15,9 +15,11 @@
         let numeroUsuario = Number(prompt("Introduzca aqui un numero del 1 al 10"))
 
         if (numeroUsuario === NUMERO_SECRETO) {
-            console.log("Has acertado al numero secreto!");
+            alert("Has acertado al numero secreto!");
         }else if (numeroUsuario > NUMERO_SECRETO){
-            console.log("El numero secreto es mas pequeño");
+            alert("El numero secreto es mas pequeño");
+        } else{
+         alert("El numero es mas grande")
         }
             
 
