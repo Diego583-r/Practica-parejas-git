@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script>
 
-    const NUMERO_FIJO = 6;
-    
-    let numeroUsuario = Number(prompt("Introduzca aqui un numero del 1 al 10")) 
-    
-   
+        const NUMERO_SECRETO = 6;
+
+        let numeroUsuario = Number(prompt("Introduzca aqui un numero del 1 al 10"))
+
+        if (numeroUsuario === NUMERO_SECRETO) {
+            console.log("Has acertado al numero secreto!");
+        } else {
+            console.log("No has acertado al numero secreto.");
+            
+        }
+
 
     </script>
 </body>
+
 </html>
