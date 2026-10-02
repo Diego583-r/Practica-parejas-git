@@ -12,6 +12,10 @@
         let cliente = prompt("Cual es tu nombre?")
         let precioCompra = Number(prompt("Introduce el precio de tu compra aqui."))
         let precioFinal
+
+        if ( precioCompra => 100){
+            precioFinal = precioCompra - (precioCompra * 0.10)
+        }
     </script>
 </body>
 
